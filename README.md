@@ -11,7 +11,7 @@ The purpose of the project was to create a neural network model to predict succe
 - The variable "Is_Successful" was the target variable
 - The variables "EIN" (ID) and "NAME" were dropped as they were neither targer variables nor features
 - The remaining data columns were features (43 inputs once the categorical variables were encoded)
-- There 2 layers consiting of 85 and 50 neurons in each layer, with 3 total activation functions (relu for the 2 hidden layers and sigmoid for the output layer)
+- There were 2 layers consiting of 85 and 50 neurons in each layer, with 3 total activation functions (relu for the 2 hidden layers and sigmoid for the output layer)
 - The first pass through the testing data (accuracy of 69.62%) did not achieve the target accuracy of 75%:
 
 ![image](https://user-images.githubusercontent.com/79061124/126256807-d93f2b2a-6616-4d59-8857-0244a70d8038.png)
